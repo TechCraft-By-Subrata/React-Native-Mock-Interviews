@@ -3,7 +3,7 @@
 > **Helping React Native developers prepare for real-world technical interviews through community-driven mock interview experiences.**
 
 <p align="center">
-  <img src="https://github.com/TechCraft-By-Subrata/React-Native-Mock-Interviews/blob/main/react-native-mock-interview.png" alt="TechCraft By Subrata" width="220"/>
+  <img src="https://github.com/TechCraft-By-Subrata/React-Native-Mock-Interviews/blob/main/react-native-mock-interview.png" alt="TechCraft By Subrata" />
 </p>
 
 <p align="center">
