@@ -4,6 +4,8 @@ Tailored for a candidate profile with ~2 years of experience across AgriTech/EdT
 
 ---
 
+Linkedin: https://www.linkedin.com/in/raghav-gupta-/
+
 ## 1. Core React Native & JavaScript/TypeScript
 
 1. Walk through the React Native bridge (or the New Architecture's JSI/Fabric/TurboModules). Why was the old bridge a performance bottleneck, and how does JSI solve it?
