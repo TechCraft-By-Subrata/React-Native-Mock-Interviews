@@ -6,37 +6,30 @@ sidebar_label: Repository Structure
 
 # Repository Structure
 
-The repository is designed to grow into both a content archive and a public documentation site.
+The repository is designed around a single source of truth for each volunteer profile, plus a public documentation site.
 
-## Intended structure
+## Current structure
 
 ```text
 .
 ├── README.md
-├── interviews/
-│   ├── Interview-001/
-│   │   ├── Candidate.md
-│   │   ├── Questions.md
-│   │   ├── Feedback.md
-│   │   ├── Resources.md
-│   │   └── Recording.md
-│   └── ...
-├── common-questions/
-├── resources/
 ├── volunteers/
+│   ├── abrar-hasan.md
+│   ├── awais-ahmed.md
+│   └── ...
 └── docs-site/
 ```
 
 ## What exists today
 
 - `README.md`: project vision and scope
-- `volunteers/`: current volunteer-specific interview question sets
+- `volunteers/`: volunteer-specific interview question sets and later the same file can be updated with the YouTube recording link
 - `docs-site/`: the public Docusaurus site for GitHub Pages
 - `react-native-mock-interview.png`: repository branding asset
 
-## Recommended growth path
+## How it works
 
-1. Keep `volunteers/` as the intake area for candidate-specific mock interview sets.
-2. Add `interviews/` once full interview packages exist with feedback, resources, and recordings.
-3. Add `common-questions/` for reusable topic-based prep material.
-4. Use `docs-site/` to explain the process, surface featured interviews, and onboard contributors.
+1. Add one markdown file per volunteer inside `volunteers/`.
+2. Use that same file to hold the question set for the mock interview.
+3. After the interview is published on YouTube, update the same volunteer file with the recording link.
+4. Let `docs-site/` generate the public volunteer pages automatically from those files.
