@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'docs-site/**'
+      - 'volunteers/**'
       - '.github/workflows/deploy-docs.yml'
   workflow_dispatch:
 
